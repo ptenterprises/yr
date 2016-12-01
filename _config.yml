@@ -11,3 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "staff"
+    values:
+      name:
+      title:
+      blurb:
