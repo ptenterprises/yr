@@ -7,7 +7,7 @@ collections:
     output: true
   staff:
     title: Staff
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
@@ -16,6 +16,7 @@ defaults:
     path: ''
     type: staff
   values:
+    title: "Insert Staff Name Here"
     name: 
     role: 
     blurb: 
