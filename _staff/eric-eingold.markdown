@@ -1,7 +1,7 @@
 ---
 title: Eric Eingold
 date: 2016-12-01 22:46:00 Z
-position: 3
+position: 2
 role: Law Graduate/Public Interest Public Service Fellow
 ---
 
