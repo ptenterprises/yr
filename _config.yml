@@ -16,8 +16,6 @@ defaults:
     path: ''
     type: staff
   values:
-    title: 
-    name: 
     role: 
     blurb: 
     priority: 
