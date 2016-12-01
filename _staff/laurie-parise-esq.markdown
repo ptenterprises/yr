@@ -1,6 +1,7 @@
 ---
 title: Laurie Parise, Esq.
 date: 2016-12-01 22:44:00 Z
+position: 1
 role: Executive Director and Founder
 priority: 1
 ---
