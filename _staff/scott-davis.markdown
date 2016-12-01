@@ -1,7 +1,7 @@
 ---
 title: Scott Davis
 date: 2016-12-01 22:45:00 Z
-position: 3
+position: 2
 role: Paralegal
 ---
 
