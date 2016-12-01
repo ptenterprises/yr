@@ -16,7 +16,7 @@ defaults:
     path: ''
     type: staff
   values:
-    title: "Insert Staff Name Here"
+    title: Insert Staff Name Here
     name: 
     role: 
     blurb: 
