@@ -1,6 +1,5 @@
 ---
 title: Yr
-description: Yr
 timezone: UTC
 collections:
   posts:
@@ -18,3 +17,4 @@ defaults:
     type: staff
   values:
     role: 
+description: Yr
