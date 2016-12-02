@@ -18,7 +18,7 @@ defaults:
   values:
     role: 
 - scope:
-    path: "" 
+    path: ''
   values:
-    layout: "default"
+    layout: default
 description: Yr
