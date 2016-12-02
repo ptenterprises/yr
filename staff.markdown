@@ -7,9 +7,9 @@ date: 2016-12-01 22:49:00 Z
     {% for person in site.staff %}
     {% unless person.published == false %}
     <li>
-        <span class="name">{{ person.title }}</span>
-        <span class="role">{{ person.role }}</span>
-        <span class="blurb">{{ person.blurb }}</span>
+        <div class="name">{{ person.title }}</div>
+        <div class="role">{{ person.role }}</div>
+        <div class="blurb">{{ person.blurb }}</div>
     </li>
     {% endunless %}
     {% endfor %}
