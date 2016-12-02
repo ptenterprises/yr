@@ -17,9 +17,8 @@ defaults:
     type: staff
   values:
     role: 
-  -
-    scope:
-      path: "" 
-    values:
-      layout: "default"
+- scope:
+    path: "" 
+  values:
+    layout: "default"
 description: Yr
