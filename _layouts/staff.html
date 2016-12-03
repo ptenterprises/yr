@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <ul>
+    <ol>
         {% for person in site.staff %}
         {% unless person.published == false %}
         <li>
@@ -14,6 +14,6 @@ layout: default
         </li>
         {% endunless %}
         {% endfor %}
-    </ul>
+    </ol>
   </div>
 </div>
