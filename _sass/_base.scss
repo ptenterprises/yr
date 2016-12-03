@@ -13,8 +13,8 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: $sans-font-weight;
-  font-family: $sans-font-family;
+  font-weight: $primary-font-weight;
+  font-family: $primary-font-family;
   color: #222; }
 
 
@@ -23,8 +23,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-family: $header-font-family;
-  font-weight: $header-font-weight;
+  font-family: $primary-font-family;
+  font-weight: $primary-font-weight;
 }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -44,8 +44,8 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  font-weight: $serif-font-weight;
-  font-family: $serif-font-family;
+  font-weight: $primary-font-weight;
+  font-family: $primary-font-family;
   margin-top: 0; }
 
 

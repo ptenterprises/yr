@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <ul>
+        {% for person in site.staff %}
+        {% unless person.published == false %}
+        <li>
+            <div class="name">{{ person.title }}</div>
+            <div class="role">{{ person.role }}</div>
+            <div class="blurb">{{ person.content }}</div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+  </div>
+</div>
