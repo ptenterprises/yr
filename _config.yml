@@ -16,7 +16,8 @@ defaults:
     path: ''
     type: staff
   values:
-    role: 
+    role:
+    image_file:  
 - scope:
     path: ''
   values:
