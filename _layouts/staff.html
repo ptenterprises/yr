@@ -1,19 +1,29 @@
 ---
 layout: default
 ---
+{% include header.html %}
 
 <div class="container">
   <div class="row">
-    <ol>
+    <ol class="staff-list">
         {% for person in site.staff %}
         {% unless person.published == false %}
-        <li>
-            <div class="name">{{ person.title }}</div>
-            <div class="role">{{ person.role }}</div>
-            <div class="blurb">{{ person.content }}</div>
-        </li>
+        <div class="row">
+          <div class="four columns">
+            <img src="{{ person.image }}" />
+          </div>
+          <div class="eight columns">
+            <li>
+                <div class="name">{{ person.title }}</div>
+                <div class="role">{{ person.role }}</div>
+                <div class="blurb">{{ person.content }}</div>
+            </li>
+          </div>
+        </div>
         {% endunless %}
         {% endfor %}
     </ol>
   </div>
 </div>
+
+{% include footer.html %}

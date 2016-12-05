@@ -1,0 +1,22 @@
+.staff-list {
+  img {
+    width: 80%;
+    float: right;
+  }
+  
+  .name {
+    font-weight: $header-font-weight;
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .role {
+    font-weight: $subheader-font-weight;
+    font-size: 1.8rem;
+  }
+  
+  .blurb {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+}

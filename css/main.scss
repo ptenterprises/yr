@@ -8,7 +8,8 @@
 // Our variables
 $primary-font-family: 'Heebo', sans-serif;
 $primary-font-weight: 400;
-$header-font-weight: 500;
+$header-font-weight: 900;
+$subheader-font-weight: 300;
 
 $spacing-unit:     30px;
 
@@ -48,6 +49,8 @@ $on-laptop:        800px;
         "normalize",
         "base",
         "layout",
-        "nav"
+        "nav",
+        "staff",
+        "homepage"
 ;
 
